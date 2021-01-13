@@ -212,3 +212,12 @@
   .loadingpage img{
     animation: jump .5s linear alternate infinite;
   }
+  @media (max-width: 765px) {
+    .text,.textnext,.textnext2{
+        font-size: 1rem;
+        line-height: 25px;
+    }
+    .textnext2{
+        top: 50%;
+    }
+    }
